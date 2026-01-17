@@ -1,5 +1,5 @@
 {
-  "name": "appointment-service",
+  "name": "audit-service",
   "version": "1.0.0",
   "scripts": {
     "dev": "ts-node-dev --respawn src/server.ts",
@@ -8,19 +8,16 @@
   },
   "dependencies": {
     "amqplib": "^0.10.3",
-    "axios": "^1.6.2",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "pg": "^8.11.3",
-    "typeorm": "^0.3.17",
-    "ioredis": "^5.3.2"
+    "ioredis": "^5.3.2",
+    "mongoose": "^8.0.0"
   },
   "devDependencies": {
     "@types/amqplib": "^0.10.4",
     "@types/cors": "^2.8.19",
     "@types/express": "^4.17.20",
-    "@types/ioredis": "^4.28.10",
     "@types/node": "^20.9.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
